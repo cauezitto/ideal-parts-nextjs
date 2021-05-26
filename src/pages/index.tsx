@@ -1,10 +1,9 @@
-import Main from 'components/Main'
+import Default from 'templates/Default'
 
 export default function Home() {
   return (
-    <Main
-      title="Site em constução"
-      description="aguarde, em breve estaremos online!"
-    />
+    <Default>
+      <h1>conteudo</h1>
+    </Default>
   )
 }

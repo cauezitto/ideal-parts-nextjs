@@ -6,7 +6,9 @@ describe('<ContactForm />', () => {
   it('should render the heading', () => {
     const { container } = render(<ContactForm />)
 
-    expect(screen.getByRole('heading', { name: /ContactForm/i })).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', { name: /ContactForm/i })
+    ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })

@@ -37,10 +37,21 @@ export type Color =
   | 'blue300'
   | 'green100'
   | 'lightRed'
+  | 'primaryRed'
+  | 'purple'
 
 export type Font = 'ubuntu' | 'roboto' | 'robotoCondensed'
 
 export type Justify = 'flex-start' | 'center' | 'flex-end'
+
+export type Align = 'flex-start' | 'center' | 'flex-end'
+
+export type JustifyContent =
+  | 'space-around'
+  | 'center'
+  | 'space-between'
+  | 'flex-end'
+  | 'flex-start'
 
 export type TextAlign = 'left' | 'center' | 'right'
 

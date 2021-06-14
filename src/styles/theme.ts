@@ -66,6 +66,7 @@ export default {
     blue300: '#0D0B1A',
     green100: '#03989E',
     lightRed: '#E44951',
+    primaryRed: '#F15247',
     purple: '#A957FC',
     defaultGradient:
       'linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0) 100%), #22282F;'

@@ -1,9 +1,14 @@
+import { Align, JustifyContent } from 'types/style'
 import * as S from './styles'
 
-const Column = () => (
-  <S.Wrapper>
-    <h1>Column</h1>
-  </S.Wrapper>
+export type ColumnProps = {
+  children: React.ReactNode
+  justifyContent?: JustifyContent
+  alignItems?: Align
+}
+
+const Column = (props: ColumnProps) => (
+  <S.Wrapper {...props}>{props.children}</S.Wrapper>
 )
 
 export default Column

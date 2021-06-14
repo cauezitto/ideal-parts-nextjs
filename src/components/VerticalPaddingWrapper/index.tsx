@@ -3,7 +3,7 @@ import { Spacing } from 'types/style'
 import * as S from './styles'
 
 type VerticalPaddingProps = {
-  padding: Spacing
+  padding?: Spacing
   children: ReactNode
 }
 const VerticalPaddingWrapper = (props: VerticalPaddingProps) => (

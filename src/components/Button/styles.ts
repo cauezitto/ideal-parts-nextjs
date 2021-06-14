@@ -4,7 +4,7 @@ import { ButtonProps } from '.'
 export const Wrapper = styled.button<ButtonProps>`
   ${({
     theme,
-    fill = 'brown',
+    fill = 'primaryRed',
     color = 'white100',
     radius = 0,
     font = 'roboto',

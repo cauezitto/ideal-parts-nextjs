@@ -68,16 +68,12 @@ const Footer = () => (
               LOJA
             </Heading>
 
-            <Link href="/sobre">
-              <S.NavigationLink>Sobre Nós</S.NavigationLink>
+            <Link href="/loja">
+              <S.NavigationLink>Peças</S.NavigationLink>
             </Link>
 
-            <Link href="/contato">
-              <S.NavigationLink>Contato</S.NavigationLink>
-            </Link>
-
-            <Link href="/regulamentos">
-              <S.NavigationLink>Troca e Devolução</S.NavigationLink>
+            <Link href="/loja">
+              <S.NavigationLink>Reparos</S.NavigationLink>
             </Link>
           </S.Nav>
 
